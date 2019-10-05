@@ -1,0 +1,10 @@
+@import "overrides";
+
+.base-input {
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 13px;
+  height: 38px * $hd;
+  border-bottom: 1px solid #F8F8F8;
+  font-size: $font-size-base;
+}

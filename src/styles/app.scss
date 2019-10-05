@@ -1,0 +1,24 @@
+// 自定义变量
+@import "overrides";
+@import "variables";
+
+// taro-ui 默认样式
+@import "icon";
+@import "~taro-ui/dist/style/index.scss";
+
+// 自定义辅助类
+@import "position";
+@import "spacing";
+
+// 组件样式
+@import "page";
+@import "text";
+@import "input";
+@import "board";
+@import "badge";
+@import "order";
+@import "button";
+@import "textarea";
+@import "border";
+@import "message";
+@import "room";

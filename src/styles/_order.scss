@@ -1,0 +1,10 @@
+@import "overrides";
+
+.order {
+  &-normal {
+    &-item {
+      border-bottom: 1px solid #F8F8F8;
+    }
+  }
+}
+

@@ -1,0 +1,116 @@
+@import "overrides";
+
+.board {
+  background: #ffffff;
+
+  &--all {
+    border-radius: 12px * $hd;
+  }
+
+  &--top {
+    border-radius: 12px * $hd 12px * $hd 0 0;
+  }
+
+  &--bottom {
+    box-shadow: 0px 3px * $hd 6px * $hd rgba(37, 91, 255, 0.08);
+    border-radius: 0 0 12px * $hd 12px * $hd;
+  }
+
+  &--none {
+    border-radius: 0;
+  }
+
+  &-header {
+    &--option {
+      border-left: 1px solid #F8F8F8;
+    }
+
+    &--brand {
+      background: $color-brand;
+      color: #ffffff;
+      border-radius: 12px * $hd 12px * $hd 0 0;
+    }
+
+    &--grey {
+      background: #888888;
+      color: #ffffff;
+      border-radius: 12px * $hd 12px * $hd 0 0;
+    }
+  }
+
+  &--selected {
+    color: #ffffff;
+    background: $color-brand;
+
+    .text-secondary {
+      color: #C4C4C4;
+    }
+  }
+
+  &--grey {
+    background: #F5F5F5;
+  }
+
+  &--blue {
+    color: #ffffff;
+    background: #638CFF;
+  }
+
+  &--light-yellow {
+    background: #F8F8F8;
+  }
+
+  &--fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  &--fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.brand {
+  &--options {
+    &-item {
+      border-bottom: 1px solid #F8F8F8;
+    }
+
+    &-item:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &-header {
+    &--option {
+      border-left: 1px solid #F8F8F8;
+    }
+
+    &--avatar {
+      .at-avatar {
+        width: 64px * $hd;
+        height: 64px * $hd;
+      }
+    }
+  }
+}
+
+.page-back {
+  width: 56px * $hd;
+  height: 25px * $hd;
+  background: #FF7575;
+  opacity: 1;
+  border-radius: 6px * $hd;
+}
+.line{
+  background: rgb(245, 241, 241);
+  height: 1px * $hd ;
+  box-shadow: 0px 3px * $hd 6px * $hd rgba(37, 91, 255, 0.08);
+  border-radius: 0 0 12px * $hd 12px * $hd;
+}

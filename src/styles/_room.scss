@@ -1,0 +1,36 @@
+@import "overrides";
+
+.room {
+  &-header {
+    background: #255BFF;
+    color: #FFFFFF;
+    border-radius: 12px * $hd 12px * $hd 0 0;
+  }
+  &-body {
+    background: #E3EAFE;
+    color: #000000;
+    border-radius: 0 0 12px * $hd 12px * $hd;
+  }
+
+  &-checkbox {
+    height: 18px * $hd;
+    width: 18px * $hd;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  &--grey {
+    .room-header {
+      background: #BBBBBB;
+      color: #FFFFFF;
+    }
+    .room-body {
+      background: #ECECEC;
+      color: #000000;
+    }
+
+    .room-checkbox {
+      background: #ECECEC
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "overrides";
+
+$borders: left, right, top, bottom !default;
+
+@each $border, $length in $borders {
+  .border-#{$border} {
+    border-#{$border}: 1px solid #F8F8F8;
+  }
+  .border-#{$border}-brand {
+    border-#{$border}: 1px solid $color-brand;
+  }
+}
+
+.field-border {
+  height: 14px * $hd;
+  width: 3px* $hd;
+  border-radius: 10px;
+  background: $color-brand;
+}

@@ -1,0 +1,68 @@
+@import "overrides";
+
+.text {
+  &-center {
+    text-align: center !important;
+  }
+
+  &-through {
+    text-decoration: line-through !important;
+  }
+
+  &-secondary {
+    color: $color-text-secondary !important;
+  }
+
+  &-brand {
+    color: $color-brand !important;
+  }
+
+  &-danger {
+    color: #FF6363 !important;
+  }
+
+  &-black {
+    color: #000000 !important;
+  }
+
+  &-white {
+    color: #ffffff !important;
+  }
+
+  &-light {
+    color: $color-text-light !important;
+  }
+
+  &-muted {
+    color: #4A4A4A !important;
+  }
+
+  &-bold {
+    font-weight: bold;
+  }
+
+  // 字体大小
+  &-super {
+    font-size: $font-size-xxl;
+  }
+
+  &-huge {
+    font-size: $font-size-xl;
+  }
+
+  &-large {
+    font-size: $font-size-lg;
+  }
+
+  &-normal {
+    font-size: $font-size-base;
+  }
+
+  &-small {
+    font-size: $font-size-sm;
+  }
+
+  &-mini {
+    font-size: $font-size-xs;
+  }
+}

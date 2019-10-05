@@ -1,0 +1,44 @@
+@font-face {font-family: "abc";
+  src: url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAUQAAsAAAAACnAAAATDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDVgqHRIYQATYCJAMcCxAABCAFhG0HYhviCFGUT06H7GeCTSdfiWhsRKOHEEopm/pG2H+cNtu29CwXD/9/iN73d9a0hMbEhDdOyolu6vFSvdSi1SxToJdT/YxJC4hiPBMY1LXQZEtRXrK85Ht/FutEKMeLUAFMaVEP26yhrBLwAicmErqvwoklrCo9UX2J2EuFHKC+/p/DxjcWnh3Of9vOac5dm3phNEEKaOwFEnAJpQlqw9jFZVxNYNI6X+Pi9PoO+gptp0D8sEZCP2ZSSohhaFvOkUX8FW2k3+k6gD/uz8c3TKJPUjPtWrevJ3PYfxu927L4PzYqv8L9OcAcR8YBUIhfua6fWn7qQMuk9Dttl8C0ISlv3pvd3+O7zbut7/M2ism0TJg2q/+DR1FlSRNEA1XTGHOvbHsoNnkU3jwelbcdj8z7o0B2+9hAHo2PreTsVB1tP4t5EEcgXgDm0JWle7ZWqCcRBF4zumnxGqGYdld+ru1Z5lDXKcLBQduG2sYQakUcfTDBhZyY74WkqlJeUePKKdQuxPpg0d6/CCmOa6YMku1twUR9MiHymq5lDJGciOWtxJkZd+92eWjnHzR6XJ3euTNkZ4MGND2ZsRruq+peQo5Oag+ubrEkAd5+uHAPohe/fXtwZUKQs2vXKfA3E12vPviITlaK5ysXyLrdGcFQ6dIV2ew78+yT1innBD6OvJKVNDc4acj0FONbr0cc03TNqa61lM7+Hgg5JwBwoe0ZDDVGuxGnCAAf5zi7oMBErjmLrE4QDZxkGAsV6ED0MduqCpDiVEMBTga5bcH5npETG+yB1q5Vw+Vv3Lr1qHxShesO+fjZW+px9Y3YJtcrhFWv3pQqU+rZj4CWE4yyZZOKNSyW9O79FwnKgNSO+1UtofIb1Pu/bNlO+7n9nZKKvjg0L3dMyhp9PGNUI/lmiwUHFh7tVisltVbXY01HVtvaWmp8/tex10iOq7+laaUOZdJWzotDn2f6kzFjtHs1e8+d27vGmvrfKvfxwjwf9+PQ/ecdKi1swUIjDUL9unaNDkVbVf0YvHYtEytYsqZkoyYN9dkbvfbeF5qGhiRuCnsX3r1OLFGxeBL89epV6M8PqF++wekn4eKw/9ZppaQi0LJeWSrQlXkah+Pj+TTpNMVx41CnZVENUSmliO1sN6wB7SmsFcAA/mkXtQMAYLeyTQF832llxITA2MwHlDV+1K1g/aKR3lip1beBPt5596O3sW7IPy1DWz/pIVFb/FuKa04qslQz9yKObG4p0N3r8FINJvUZ/I6+Rb/9eVZA6AiDFUNIujXIhg1EwRxANeUQmuEYJu07O37KEtISZQJ7vgCEed+QzPoH2bwfRMHsoFr1D818tGDSXeydccpW2OERoWSci9lGWOVKbVh56FXfoFnkkqJSl/yAVNuoGIdxMnuGJVIf+9RLM2HWQpMrxCm4Hua5ExW5FBWHCXM1jSKd90mhcgUMnSNIYmhOmNkQLMUpaXtuNkx9/w1kLOQkKhkq8T9ApGZXL4yF4hqIM1VZa+hc1q8tGROMabydRpyCcAodKNdTjlDlb5ZCCgslLRKVqQhNp+uqwvE1xXVeBpO0d+6RIkeJGi16DJMPRG5F1iTcVYksDXaqxJXYK7CuZSxPJaiyPudwG2sZAQAA') format('woff2');
+}
+
+.iconfont {
+  font-family: "abc" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display:inline-block;
+  font-weight:400;
+  font-variant:normal;
+  text-transform:none;
+  text-rendering:auto;
+  line-height:1;
+  vertical-align:middle;
+}
+
+.icon-arrow-right:before {
+  content: "\e8a3";
+}
+
+.icon-change:before {
+  content: "\e75d";
+}
+
+.icon-phone:before {
+  content: "\e6dd";
+}
+
+.icon-message:before {
+  content: "\e621";
+}
+
+.icon-check:before {
+  content: "\e622";
+}
+
+.icon-scan:before {
+  content: "\e879";
+}
+

@@ -1,0 +1,26 @@
+@import "overrides";
+
+.textarea {
+  color: #888888;
+  height: 200px * $hd;
+  background: #F8F8F8;
+  border: 1px solid #F8F8F8;
+
+  .at-textarea__textarea {
+    font-size: $font-size-base;
+  }
+}
+
+
+.message-textarea {
+  .textarea {
+    color: #000000;
+    height: 120px * $hd;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+
+    .at-textarea__textarea {
+      font-size: $font-size-base;
+    }
+  }
+}
