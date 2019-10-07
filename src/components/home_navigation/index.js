@@ -47,8 +47,8 @@ class Navigation extends BaseComponent {
           { HOME_NAVS &&HOME_NAVS.map((i) =>
             <View key={i.id} onClick={this.onClick.bind(this,i.id)}>
               <View className='at-col'>
-                <Image src={i.src} style='width:80px;height:80px' className='at-row at-row__justify--center' ></Image>
-                <View className='at-row at-row__justify--center'>{i.message}</View>
+                <Image src={i.src} style='width:30px;height:30px' className='at-row at-row__justify--center' ></Image>
+                <View className='at-row at-row__justify--center page-middile text-normal mt-1'>{i.message}</View>
 
               </View>
 
