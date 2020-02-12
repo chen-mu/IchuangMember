@@ -91,9 +91,9 @@ class studyExercise extends BaseComponent {
         content: '祝贺您，您已完成这次练习',
         success: function (res) {
           if (res.confirm) {
-            that.props.dispatchChapterExercisePoint({...payloadPoint,count:score,time:timeNow})
-            that.props.dispatchChapterExerciseResult({...payloadResult,score:score,point:score})
-            Taro.redirectTo({
+            // that.props.dispatchChapterExercisePoint({...payloadPoint,count:score,time:timeNow})
+            // that.props.dispatchChapterExerciseResult({...payloadResult,score:score,point:score})
+            Taro.switchTab({
               url:PAGE_STUDY_INDEX
             })
           }
@@ -128,9 +128,9 @@ class studyExercise extends BaseComponent {
         content: '祝贺您，您已完成这次练习',
         success: function (res) {
           if (res.confirm) {
-            that.props.dispatchChapterExercisePoint({...payloadPoint,count:score,time:timeNow})
-            that.props.dispatchChapterExerciseResult({...payloadResult,score:score,point:score})
-            Taro.redirectTo({
+            // that.props.dispatchChapterExercisePoint({...payloadPoint,count:score,time:timeNow})
+            // that.props.dispatchChapterExerciseResult({...payloadResult,score:score,point:score})
+            Taro.switchTab({
               url:PAGE_STUDY_INDEX
             })
           }

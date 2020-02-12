@@ -90,7 +90,7 @@ class DashboardIndex extends Component {
           </Text>
         </View>
       </Board>
-
+{/* 
       <Board border='' className='p-2 mt-2 mb-2'>
         <View className='ml-2 mt-2 page-middile text-bold'>鸣谢</View>
 
@@ -111,7 +111,7 @@ class DashboardIndex extends Component {
             &nbsp;&nbsp;&nbsp;&nbsp;感谢帮助我们做演示视频。
           </Text>
         </View>
-      </Board>
+      </Board> */}
 
 
 

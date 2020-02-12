@@ -68,7 +68,7 @@ class DashboardIndex extends Component {
         </View>
       </Board>
 
-      <Board className='m-2 p-2'>
+      <Board className='m-2 p-2 mt-4'>
         <View className='at-row at-row__justify--between mt-2' onClick={this.onTest}>
           <View className='at-col-4 '>我的考核</View>
           <View className='text-normal'>
@@ -96,7 +96,7 @@ class DashboardIndex extends Component {
 
         <View className='line mt-3'></View>
 
-        <View className='at-row at-row__justify--between mt-3' onClick={this.onFreeTime}>
+        <View className='at-row at-row__justify--between mt-3 mb-2' onClick={this.onFreeTime}>
           <View className='at-col-4 '>关于我们</View>
           <View className='text-normal'>
             <AtIcon value='chevron-right' size='25' color='#255BFF'></AtIcon>

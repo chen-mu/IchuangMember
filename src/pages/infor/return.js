@@ -45,6 +45,13 @@ class DashboardIndex extends Component {
 
   }
 
+  onConfire(){
+    Taro.showToast({
+      title:'反馈提交成功',
+      icon:'none',
+      duration:2000
+    })
+  }
 
 
   render() {
@@ -66,7 +73,7 @@ class DashboardIndex extends Component {
         onChange={this.onChange.bind(this)}
       />
 
-      <AtButton type='primary' circle style='width:100vw' className='m-2' > 提交反馈   </AtButton>
+      <AtButton type='primary' circle style='width:100vw' className='m-2' onClick={this.onConfire} > 提交反馈   </AtButton>
 
 
     </View>)

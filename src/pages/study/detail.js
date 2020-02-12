@@ -117,11 +117,11 @@ class studyDetail extends BaseComponent {
             <View className='text-normal mt-2'>{teacherPhone}</View>
           </View>
         </Board>
-        <Board className=' at-row mt-2'>
-          <View className='at-col-8 m-2'>
+        <Board className=' mt-2'>
+          <View className=' p-2'>
             <View className='text-normal page-house at-col-4 page-middile'>教师介绍</View>
-            <View>
-              <View className='text-normal mt-2 ml-3'>{teacherIntro}</View>
+            <View className='mb-2'>
+              <View className='text-normal mt-2 mx-3'>现如今市面上端的形态多种多样微,信小程序等各种端大行其道，当业务要求同时在不同的端都要求有所表现的时候，针对不同的端去编写多套代码的成本显然非常高，这时候只编写一套代码就能够适配到多端的能力就显得极为需要</View>
             </View>
           </View>
         </Board>

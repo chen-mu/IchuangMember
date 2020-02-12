@@ -3,6 +3,7 @@ import { View } from '@tarojs/components'
 import { connect } from '@tarojs/redux'
 import SweiperHead from '@components/swiper-head'
 import HomeNavigation from '@components/home_navigation'
+import Placeholder from '@components/placeholder'
 import studyLists from '@components/study-list'
 import { PAYLOAD_COURSE_LIST } from '@constants/api'
 
@@ -24,6 +25,7 @@ class DashboardIndex extends Component {
   state = {
     applySuccess: [],
     payload: PAYLOAD_COURSE_LIST,
+    show: false,
   }
   async componentWillMount() {
     const { payload } = this.state
@@ -42,35 +44,42 @@ class DashboardIndex extends Component {
   }
 
   render() {
-    const { applySuccess, props } = this.state
+    const { applySuccess, show } = this.state
     const { course } = this.props
     return (<View>
-      <View className='p-2'>
-        <SweiperHead
-          type='showHead'
-        />
+      { !show&&<View>
+        <View className='p-2'>
+          <SweiperHead
+            type='showHead'
+          />
 
-        <HomeNavigation
+          <HomeNavigation
 
-        />
+          />
 
-        <SweiperHead
-          applySuccess={applySuccess}
-          type='showSuccess'
-        />
+          <SweiperHead
+            applySuccess={applySuccess}
+            type='showSuccess'
+          />
 
 
-      </View>
-      <Board border='' className='p-2 mt-1 mb-2'>
-        <View className='ml-3 mt-2 mb-2'>推荐课程</View>
-        <studyLists
+        </View>
+        <Board border='' className='p-2 mt-1 mb-2'>
+          <View className='ml-3 mt-2 mb-2'>推荐课程</View>
+          <studyLists
 
-          items={course.rows}
-          refs={this.courseList}
-          dispatchList={this.props.dispatchCourseList}
-          dispatchNextPageList={this.props.dispatchNextCourseList}
-        />
-      </Board>
+            items={course.rows}
+            refs={this.courseList}
+            dispatchList={this.props.dispatchCourseList}
+            dispatchNextPageList={this.props.dispatchNextCourseList}
+          />
+        </Board>
+      </View>}
+      {/* <Placeholder
+        className='mt-2'
+        show={show}
+        quantity={1}
+      /> */}
     </View>)
   }
 }
